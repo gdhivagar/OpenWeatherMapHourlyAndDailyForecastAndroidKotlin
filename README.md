@@ -12,6 +12,4 @@ LineChart for minimum temp
 Hourly Forecast for 1 day
 Daily Forecast for 7 days
 
- 
- 
-
+![openweathermap](https://user-images.githubusercontent.com/48427398/218531411-1368e4e2-0c75-4758-9fc3-749de11c8965.jpeg)
