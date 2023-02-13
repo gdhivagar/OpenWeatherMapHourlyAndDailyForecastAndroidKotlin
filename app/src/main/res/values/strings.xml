@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather Details</string>
+    <string name="probability_of_precipitation">Probability of precipitation</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="east_wind">East wind</string>
+    <string name="perceived_temperature">Perceived temperature</string>
+    <string name="hum">HUM</string>
+    <string name="visibility">Visibility</string>
+    <string name="uv">UV</string>
+    <string name="pressure">Pressure</string>
+    <string name="london">London</string>
+    <string name="haze">Haze</string>
+    <string name="na">NA</string>
+</resources>

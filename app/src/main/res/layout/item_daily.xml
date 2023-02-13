@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6sp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvDailyWeatherDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="0sp"
+            android:layout_marginEnd="0sp"
+            android:layout_marginBottom="0sp"
+            android:textColor="@color/color_purple_400"
+            android:textSize="14sp"
+            tools:text="Wed \n11/01" />
+
+        <ImageView
+            android:id="@+id/ivDailyWeatherIcon"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_below="@+id/tvDailyWeatherDate"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="7sp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            tools:src="@drawable/ic_11d" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
