@@ -7,7 +7,4 @@
  Check out this link to create a new API key https://openweathermap.org/
  
 Features
-LineChart for maximum temp \n
-LineChart for minimum temp \n
-Hourly Forecast for 1 day \n
-Daily Forecast for 7 days.
+LineChart for maximum temp <br /> LineChart for minimum temp <br /> Hourly Forecast for 1 day <br /> Daily Forecast for 7 days.
